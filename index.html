@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>SPA Universe</title>
+    <style>
+      body {
+        height: 100vh;
+        background-image: url(/pages/images/mountains-universe-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <img src="./pages/images/Vector.svg" alt="logo da marca, um arroba" />
+
+      <a href="/" onclick="route()">Home</a>
+      <a href="/universe" onclick="route()">O Universo</a>
+      <a href="/exploitation" onclick="route()">Exploração</a>
+    </nav>
+
+    <div id="app"></div>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>
